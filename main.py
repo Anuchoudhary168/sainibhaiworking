@@ -1,4 +1,4 @@
-import os
+himport os
 import re
 import sys
 import json
@@ -36,7 +36,7 @@ async def show_random_emojis(message):
     emoji_message = await message.reply_text(' '.join(random.choices(emojis, k=1)))
     return emoji_message
     
-credit ="𝙎𝘼𝙄𝙉𝙄 𝘽𝙊𝙏𝙎" 
+credit ="@bhura_jaat" 
 # Initialize the bot
 bot = Client(
     "bot",
@@ -579,7 +579,7 @@ async def txt_handler(bot: Client, m: Message):
                        f"🔹𝙵𝚊𝚒𝚕𝚎𝚍 𝙻𝚒𝚗𝚔𝚜 » {failed_count}\n"
                        f"✅𝚂𝚝𝚊𝚝𝚞𝚜 » 𝙲𝚘𝚖𝚙𝚕𝚎𝚝𝚎𝚍\n"
                        f"━━━━━━━━━━━━━━━━━━━━\n"
-                       f"✦𝐁𝐨𝐭 𝐌𝐚𝐝𝐞 𝐁𝐲 ✦ `𝙎𝘼𝙄𝙉𝙄 𝘽𝙊𝙏𝙎🐦`")
+                       f"✦𝐁𝐨𝐭 𝐌𝐚𝐝𝐞 𝐁𝐲 ✦ `bhura jaat🐦`")
     
 
 @bot.on_message(filters.command(["cp"]) )
